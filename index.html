@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+    <header></header>
+    <div class="main">
+        <div id="notification" class="notification">
+            Текст скопирован
+        </div>
+        <button id="theme-toggle" class="fixed">Переключить тему</button>
+        <div class="inputs flex-center">
+            <div class="passlen flex-center">
+                <input class="input mail" type="text" placeholder="Введите длину почты">
+                <input class="input pass" type="text" placeholder="Введите длину пароля">
+                <button id="generate" onclick="generate()">generate</button>
+            </div>
+        </div>
+        <div class="uotputs flex-center">
+            Почта:
+            <input class="output mail" type="text">
+            <button type="button" id="copy" onclick="copyToClipboard('mail')" data-copy-text="Почта: ">
+                <img src="css/icon/copy.png">
+            </button>
+        </div>
+        <div class="uotputs flex-center">
+            Пароль:
+            <input class="output pass" type="text">
+            <button type="button" id="copy" onclick="copyToClipboard('pass')"data-copy-text="Пароль: ">
+                <img src="css/icon/copy.png">
+            </button>
+        </div>
+        <div class="coppyall">
+            <button type="button" id="copyall" onclick="copyAll()">Copy All</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

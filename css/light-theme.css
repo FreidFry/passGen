@@ -1,0 +1,116 @@
+button img {
+  filter: invert(0);
+}
+
+*,
+html,
+body {
+  background: #ebebeb;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.fixed {
+  height: max-content;
+  padding: 10px;
+  border: 1px solid #686868;
+  border-radius: 50px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  margin-right: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+button img {
+  width: 18px;
+  height: 18px;
+}
+
+.inputs button, .coppyall button {
+  color: #7c7c7c;
+  padding: 8px;
+  border: 1px solid #686868;
+  border-radius: 16px;
+  width: 120px;
+}
+
+.inputs button:hover, .inputs button:active, .coppyall button:hover, .coppyall button:active {
+  color: #000000;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 300px;
+  border-radius: 16px;
+  margin: 5px;
+  padding: 8px 10px;
+  border: 1px solid #686868;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 300px;
+  height: 100dvh;
+}
+
+.uotputs {
+  flex-direction: row;
+  height: 15px;
+}
+
+.uotputs input {
+  flex: 1;
+  height: 100%;
+  width: 300px;
+}
+
+button img {
+  height: 100%;
+  background: transparent;
+}
+
+button {
+  margin: auto 5px;
+  height: 100%;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: 1px solid #686868;
+  background-color: #ebebeb;
+  color: #000000;
+  border-radius: 20px;
+  display: none;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 99999;
+}
+
+/*# sourceMappingURL=light-theme.css.map */
