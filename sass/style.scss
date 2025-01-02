@@ -1,0 +1,110 @@
+@use 'light-theme' as *;
+
+// *,
+// html,
+// body{
+//     background: $primary-color;
+//     border: 0;
+//     outline: none;
+//     margin: 0;
+//     padding: 0;
+//     color: $primary-color-text;
+//     // transition: all 0.3s ease;
+// }
+
+// body{
+//     height: 100dvh;
+//     width: 100dvw;
+// }
+
+// .fixed{
+//     height: max-content;
+//     padding: 10px;
+//     border: 1px solid $primary-color-border;
+//     border-radius: 50px;
+//     position: fixed;
+//     top: 10px;
+//     right: 20px;
+//     margin-right: auto;
+// }
+
+// button{
+//     cursor: pointer;
+// }
+
+// button img{
+//     width: inherit;
+//     height: inherit;
+// }
+
+// .inputs button{
+//     color: $primary-color-unactive;
+//     padding: 8px;
+//     border: 1px solid $primary-color-border;
+//     border-radius: 16px;
+//     width: 120px;
+// }
+
+// .inputs button:hover, .inputs button:active{
+//     color: $primary-color-text;
+// }
+
+// .flex-center{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+// input{
+//     width: 300px;
+//     border-radius: 16px;
+//     margin: 5px;
+//     padding: 8px 10px;
+//     border: 1px solid $primary-color-border;
+// }
+
+// .main{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 5rem;
+//     width: 300px;
+//     height: 100dvh;
+// }
+
+// .uotputs{
+//     flex-direction: row;
+//     height: 15px;
+// }
+
+// .uotputs input{
+//     flex: 1;
+//     height: 100%;
+//     width: 500px;
+// }
+
+// button img{
+//     height: 100%;
+//     background: transparent;
+// }
+
+// button{
+//     margin: auto 5px;
+//     height: 100%;
+// }
+
+// .notification {
+//     position: fixed;
+//     top: 20px;
+//     right: 20px;
+//     padding: 10px 20px;
+//     border: 1px solid $primary-color-border;
+//     background-color: $primary-color;
+//     color: $primary-color-text;
+//     border-radius: 20px;
+//     display: none;
+//     font-size: 16px;
+//     transition: 0.5s;
+//   }
