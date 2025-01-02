@@ -23,23 +23,23 @@
         <div id="notification" class="notification">
             Текст скопирован
         </div>
-        <button id="theme-toggle" class="fixed">Переключить тему</button>
+        <button id="theme-toggle" class="fixed">Change Theme</button>
         <div class="inputs flex-center">
             <div class="passlen flex-center">
-                <input class="input mail" type="text" placeholder="Введите длину почты">
-                <input class="input pass" type="text" placeholder="Введите длину пароля">
+                <input class="input mail" type="text" placeholder="Enter the length of the mail">
+                <input class="input pass" type="text" placeholder="Enter the length of the password">
                 <button id="generate" onclick="generate()">generate</button>
             </div>
         </div>
         <div class="uotputs flex-center">
-            Почта:
+            mail:
             <input class="output mail" type="text">
             <button type="button" id="copy" onclick="copyToClipboard('mail')" data-copy-text="mail: ">
                 <img src="css/icon/copy.png">
             </button>
         </div>
         <div class="uotputs flex-center">
-            Пароль:
+            password:
             <input class="output pass" type="text">
             <button type="button" id="copy" onclick="copyToClipboard('pass')"data-copy-text="password: ">
                 <img src="css/icon/copy.png">
